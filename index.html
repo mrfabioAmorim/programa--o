@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon/_whatsapp_icon-icons.com_65789.ico" type="image/x-icon">
+    <title>Aula de Programação</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        caption {
+            margin-top: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            color: rgb(3, 116, 116);
+            font-weight: bold;
+        }
+
+        th, td {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid #DDD;
+        }
+
+        tr:hover {
+            background-color: #D6EEEE;
+        }
+        .form {
+            margin: 30px;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .form div {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body style="margin: 20%;" id="up">
+    <h1 style="color: blue;margin-top: 60px;">Hello World!</h1>
+    <p>olá bem <b>vindo</b> <i>à volta as aulas de </i> <strong>programação</strong> </p>
+    <div>
+        <img src="https://th.bing.com/th/id/OIP.wzKoSfuLw24t-ihDlcA_VAHaHa?rs=1&pid=ImgDetMain">
+        <h2>lista ordenada</h2>
+        <ol>
+            <li><del>carne</del> </li>
+            <li>carne</li>
+            <li>carne</li>
+            <li>carne</li>
+        </ol>
+        <h2>lista não ordenada</h2>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+    </div>
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools.com!
+        <img src="https://th.bing.com/th/id/OIP.wzKoSfuLw24t-ihDlcA_VAHaHa?rs=1&pid=ImgDetMain">
+
+    </a>
+    <!-- COMENTARIO HTML5-->
+    <table>
+        <caption>tabela personalizada</caption>
+        <tr>
+            <th>Person 1 &#60</th>
+            <th>Person 2</th>
+            <th>Person 3</th>
+        </tr>
+        <tr>
+            <td>&#9824 fabio</td>
+            <td>&#9827 junio</td>
+            <td>&#9829 amorim</td>
+        </tr>
+        <tr>
+            <td>&#128578 32</td>
+            <td>&#128514 30</td>
+            <td>&#128517 10</td>
+        </tr>
+        <tr>
+            <td>mas</td>
+            <td>mas</td>
+            <td><a href="#up">fem</a> </td>
+        </tr>
+    </table>
+    <div class="form">
+        <form action="#">
+            <div>
+                <label for="name"> Name: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="name"> Age: </label>
+                <input type="number">
+            </div>
+            <div>
+                <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+            </div>
+        </form>
+    </div>
+    <h1 id="up2"></h1>
+    <script>
+        let data = Date();
+        document.getElementById("up2").innerHTML = "&#169 hello java script" + "<br>" + data;
+    </script>
+</body>
+</html>
